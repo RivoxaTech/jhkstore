@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>JHK Concept | Coming Soon</title>
+  <meta name="description" content="JHK Concept is preparing something exceptional. Our new website is coming soon.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JHK Concept | Coming Soon">
+  <meta property="og:description" content="Something exceptional is on its way.">
+  <meta property="og:url" content="https://jhkconcept.com/">
+  <meta property="og:image" content="https://jhkconcept.com/jhkstore.jpeg">
+  <link rel="icon" href="jhkstore.jpeg" type="image/jpeg">
+  <link rel="preload" as="image" href="jhkstore.jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background layers (decorative, always behind content) -->
+  <div class="sky" aria-hidden="true">
+    <div class="sky__stars" id="stars"></div>
+    <div class="sky__particles" id="particles"></div>
+  </div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- Top-right: Rivoxa agency icon -->
+  <header class="topbar">
+    <img class="agency-icon reveal" src="rivoxa_icon.jpeg" width="1254" height="1254" alt="Rivoxa Tech icon" decoding="async">
+  </header>
+
+  <!-- Centre: JHK Concept brand -->
+  <main class="stage">
+    <img class="brand-logo reveal" src="jhkstore.jpeg" width="2560" height="1934" alt="JHK Concept logo" fetchpriority="high" decoding="async">
+    <h1 class="coming reveal"><span class="sr-only">JHK Concept — </span>Coming Soon</h1>
+    <span class="accent-line reveal" aria-hidden="true"></span>
+    <p class="tagline reveal">Something exceptional is on its way.</p>
+  </main>
+
+  <!-- Bottom: agency credit -->
+  <footer class="credit">
+    <p class="credit__text">Powered by</p>
+    <img class="credit__logo" src="rivoxa%20logo.jpeg" width="1448" height="1086" alt="Rivoxa" loading="lazy" decoding="async">
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
